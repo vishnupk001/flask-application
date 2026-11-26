@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return make_response("Welcome to Flask Application! Version2", 200)
+    return make_response("Welcome to Flask Application! Version1", 200)
 
 @app.route("/status")
 def status():
